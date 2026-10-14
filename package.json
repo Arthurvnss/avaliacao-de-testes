@@ -1,0 +1,16 @@
+{
+  "name": "avaliacao-testes-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Respostas das questoes 1, 2 e 3 da avaliacao de testes usando Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test:q1": "cypress run --spec cypress/e2e/questao01_saucedemo.cy.js",
+    "test:q2": "cypress run --spec cypress/e2e/questao02_books.cy.js",
+    "test:q3": "cypress run --spec cypress/e2e/questao03_tables.cy.js",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.0"
+  }
+}
